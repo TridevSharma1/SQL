@@ -11,3 +11,9 @@ VALUES
 ('Karan', 503, 'Cleaning', 'Bathinda'),
 ('Suresh', 504, 'Electrical', 'Delhi');
  select * from workers;
+ delete from workers;
+
+delete from workers
+where worker_name = 'Karan';
+
+drop table workers;
