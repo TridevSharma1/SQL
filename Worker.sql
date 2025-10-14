@@ -17,3 +17,12 @@ delete from workers
 where worker_name = 'Karan';
 
 drop table workers;
+
+UPDATE workers
+SET worker_id = 505
+WHERE worker_no = 4;
+
+UPDATE workers
+SET worker_name = 'Tridev',
+    worker_id = 550
+WHERE worker_no = 3;
