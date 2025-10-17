@@ -35,3 +35,17 @@ select * from employee;
 delete from employee;
 delete from company;
 
+update employee 
+set emp_position = 'CEO'
+where emp_id = 18;
+
+select * from employee 
+where emp_name LIKE  'T%';
+
+SELECT 
+    employee.emp_name,
+    employee.emp_position,
+    company.company_name
+FROM employee
+cross JOIN company
+
