@@ -47,5 +47,5 @@ SELECT
     employee.emp_position,
     company.company_name
 FROM employee
-cross JOIN company
+cross JOIN company;
 
