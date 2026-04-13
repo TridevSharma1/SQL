@@ -1,5 +1,3 @@
-
-
 CREATE TABLE student_table (
     std_id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
